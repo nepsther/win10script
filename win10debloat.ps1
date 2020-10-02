@@ -40,8 +40,7 @@ $tweaks = @(
 	"InstallGit",
 	"InstallFirefox",
 	"InstallChrome",
-	"InstallSkype"
-
+	
 	### Windows Apps
 	"DebloatAll",
 
@@ -255,11 +254,6 @@ Function InstallFirefox {
 Function InstallChrome {
 	Write-Output "Installing Google Chrome"
 	choco install googlechrome -y
-}
-
-Function InstallSkype {
-	Write-Output "Installing Skype"
-	choco install skype -y
 }
 
 ##########
